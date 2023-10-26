@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "TaskVision.app-mergeDebugResources-60:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\sinan\\AndroidStudioProjects\\TaskVision\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "103",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "609"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "602"
+                    }
+                }
+            ]
+        }
+    ]
+}
