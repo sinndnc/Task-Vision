@@ -4,24 +4,7 @@
             "outputFile": "TaskVision.app-mergeDebugResources-60:/values-tl/values-tl.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sinan\\.gradle\\caches\\transforms-3\\e67efadbbe94ee05177d60c582eea6f1\\transformed\\play-services-base-18.0.1\\res\\values-tl\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "193,296,468,602,707,861,993,1111,1220,1395,1498,1672,1806,1964,2139,2203,2265",
-                        "endColumns": "102,171,133,104,153,131,117,108,174,102,173,133,157,174,63,61,76",
-                        "endOffsets": "295,467,601,706,860,992,1110,1219,1394,1497,1671,1805,1963,2138,2202,2264,2341"
-                    },
-                    "to": {
-                        "startLines": "4,5,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "290,397,573,711,820,978,1114,1236,1494,1673,1780,1958,2096,2258,2437,2505,2571",
-                        "endColumns": "106,175,137,108,157,135,121,112,178,106,177,137,161,178,67,65,80",
-                        "endOffsets": "392,568,706,815,973,1109,1231,1344,1668,1775,1953,2091,2253,2432,2500,2566,2647"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\sinan\\.gradle\\caches\\transforms-3\\965781e3d9c267fbcd6c69021d6689b5\\transformed\\browser-1.4.0\\res\\values-tl\\values-tl.xml",
+                    "source": "C:\\Users\\sinan\\.gradle\\caches\\transforms-3\\d5d895b7319f91f30b8277425d800046\\transformed\\browser-1.4.0\\res\\values-tl\\values-tl.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -38,7 +21,41 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sinan\\.gradle\\caches\\transforms-3\\78eba151a771551f8c0ceb472dc5d00f\\transformed\\ui-1.4.3\\res\\values-tl\\values-tl.xml",
+                    "source": "C:\\Users\\sinan\\.gradle\\caches\\transforms-3\\6b42cb2d07e9a736cc3f5383c89a3150\\transformed\\play-services-base-18.0.1\\res\\values-tl\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "193,296,468,602,707,861,993,1111,1220,1395,1498,1672,1806,1964,2139,2203,2265",
+                        "endColumns": "102,171,133,104,153,131,117,108,174,102,173,133,157,174,63,61,76",
+                        "endOffsets": "295,467,601,706,860,992,1110,1219,1394,1497,1671,1805,1963,2138,2202,2264,2341"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "290,397,573,711,820,978,1114,1236,1494,1673,1780,1958,2096,2258,2437,2505,2571",
+                        "endColumns": "106,175,137,108,157,135,121,112,178,106,177,137,161,178,67,65,80",
+                        "endOffsets": "392,568,706,815,973,1109,1231,1344,1668,1775,1953,2091,2253,2432,2500,2566,2647"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\sinan\\.gradle\\caches\\transforms-3\\4197958be6efe1dcb83c2a1bf981760a\\transformed\\core-1.9.0\\res\\values-tl\\values-tl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "38",
+                        "startColumns": "4",
+                        "startOffsets": "4098",
+                        "endColumns": "100",
+                        "endOffsets": "4194"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\sinan\\.gradle\\caches\\transforms-3\\cec27ba00bfebcb9487d01cf7a4305bc\\transformed\\ui-1.4.3\\res\\values-tl\\values-tl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +72,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sinan\\.gradle\\caches\\transforms-3\\4b20cadb3e04d45d4a3fc50f0c1dd2a1\\transformed\\play-services-basement-18.1.0\\res\\values-tl\\values.xml",
+                    "source": "C:\\Users\\sinan\\.gradle\\caches\\transforms-3\\e9dee628fd5ea18c3518903fa0f18c03\\transformed\\play-services-basement-18.1.0\\res\\values-tl\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -69,23 +86,6 @@
                         "startOffsets": "1349",
                         "endColumns": "144",
                         "endOffsets": "1489"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\sinan\\.gradle\\caches\\transforms-3\\a1dd7751955264947e000728c75be388\\transformed\\core-1.9.0\\res\\values-tl\\values-tl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "38",
-                        "startColumns": "4",
-                        "startOffsets": "4098",
-                        "endColumns": "100",
-                        "endOffsets": "4194"
                     }
                 }
             ]

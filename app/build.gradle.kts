@@ -1,7 +1,9 @@
 import com.android.taskvision.Dependencies
 
 plugins {
+    id(com.android.taskvision.Dependencies.Plugin.hilt)
     id(com.android.taskvision.Dependencies.Plugin.kotlin)
+    kotlin(com.android.taskvision.Dependencies.Plugin.kapt)
     id(com.android.taskvision.Dependencies.Plugin.application)
     id(com.android.taskvision.Dependencies.Plugin.googleService)
 }
@@ -39,11 +41,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_1_8.toString()
+        jvmTarget = JavaVersion.VERSION_17.toString()
     }
     buildFeatures {
         compose = true
@@ -62,6 +64,10 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
         // ...
         freeCompilerArgs = freeCompilerArgs + "-opt-in=kotlin.RequiresOptIn"
     }
+}
+
+kapt {
+    correctErrorTypes = true
 }
 
 dependencies {
@@ -103,11 +109,9 @@ dependencies {
     implementation(Dependencies.Firebase.bootAware)
     //Preferences
     implementation(Dependencies.Preferences.datastore)
-    /*
     //Hilt
     kapt(Dependencies.Hilt.hiltKapt)
     implementation(Dependencies.Hilt.hilt)
-     */
     //Test
     testImplementation(Dependencies.Test.junit)
     debugImplementation(Dependencies.DebugTest.uiTooling)

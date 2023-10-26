@@ -2,6 +2,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="Theme.TaskVision" parent="android:Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">@android:color/holo_blue_dark</item>
+        <item name="android:colorSecondary">@android:color/holo_green_dark</item>
         <item name="android:enforceStatusBarContrast" tools:targetApi="q">false</item>
         <item name="android:enforceNavigationBarContrast" tools:targetApi="q">false</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
