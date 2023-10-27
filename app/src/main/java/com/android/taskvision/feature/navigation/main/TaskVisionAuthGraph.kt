@@ -8,7 +8,6 @@ import androidx.navigation.navigation
 import com.android.taskvision.feature.navigation.content.Content
 import com.android.taskvision.feature.presentation.auth.onBoard.OnBoardContent
 import com.android.taskvision.feature.presentation.auth.onBoard.OnBoardViewModel
-
 fun NavGraphBuilder.taskVisionAuthGraph(navController: NavController) {
     navigation(
         startDestination = Content.OnBoard.route,

@@ -6,7 +6,6 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
 import com.android.taskvision.feature.navigation.content.Content
-
 @Composable
 fun TaskVisionNavigationGraph() {
     val navController = rememberNavController()
