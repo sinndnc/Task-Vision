@@ -1,4 +1,4 @@
-package com.android.taskvision.feature.navigation.main
+package com.android.taskvision.feature.navigation.graph
 
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController

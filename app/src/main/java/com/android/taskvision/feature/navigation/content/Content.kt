@@ -5,7 +5,7 @@ sealed class Content(val route: String) {
     object Splash : Content("splash")
     object OnBoard : Content("onBoard")
     object SignUp : Content("register")
-    object Login : Content("login")
+    object SignIn : Content("login")
     object Main : Content("main")
     object Task : Content("task")
     object Chat : Content("chat")

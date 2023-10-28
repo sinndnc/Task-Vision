@@ -1,6 +1,7 @@
 package com.android.taskvision.feature.util.theme
 
 import android.app.Activity
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.SideEffect
@@ -25,10 +26,11 @@ fun TaskVisionTheme( content: @Composable () -> Unit) {
             WindowCompat.getInsetsController(currentWindow, view).isAppearanceLightNavigationBars = !true
         }
     }
-    val colors = if (true) DarkColorPalette else LightColorPalette
+    val colors = if (isSystemInDarkTheme()) DarkColorPalette else LightColorPalette
 
     MaterialTheme(
         colors = colors,
-        content = content
+        content = content,
+        typography = Typography
     )
 }
