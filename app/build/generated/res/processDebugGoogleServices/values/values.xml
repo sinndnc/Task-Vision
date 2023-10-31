@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="gcm_defaultSenderId" translatable="false">275375764395</string>
-    <string name="google_api_key" translatable="false">AIzaSyCd-pmF-QKbGHNpYToe53dZiBR8PMKqQA0</string>
-    <string name="google_app_id" translatable="false">1:275375764395:android:f9a7ff972dfdd93802d8ee</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCd-pmF-QKbGHNpYToe53dZiBR8PMKqQA0</string>
-    <string name="google_storage_bucket" translatable="false">task-vision.appspot.com</string>
-    <string name="project_id" translatable="false">task-vision</string>
+    <string name="default_web_client_id" translatable="false">860199150563-b1o7biu39u1nca32gktofh6677k71nt7.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">860199150563</string>
+    <string name="google_api_key" translatable="false">AIzaSyADUfoKSEqcjmAL3QbklHgUQfquarTVBhs</string>
+    <string name="google_app_id" translatable="false">1:860199150563:android:b8e0e1bd0b2d9d9d39f6d6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyADUfoKSEqcjmAL3QbklHgUQfquarTVBhs</string>
+    <string name="google_storage_bucket" translatable="false">task-vision-d070d.appspot.com</string>
+    <string name="project_id" translatable="false">task-vision-d070d</string>
 </resources>

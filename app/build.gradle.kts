@@ -73,6 +73,7 @@ kapt {
 dependencies {
     //Core
     implementation(Dependencies.Androidx.core)
+    implementation(Dependencies.Androidx.appCompat)
     //LifeCycle
     implementation(Dependencies.Lifecycle.runtime)
     //Compose
@@ -107,6 +108,7 @@ dependencies {
     implementation(Dependencies.Firebase.firestore)
     implementation(Dependencies.Firebase.messaging)
     implementation(Dependencies.Firebase.bootAware)
+    implementation(Dependencies.Firebase.googleAuth)
     //Preferences
     implementation(Dependencies.Preferences.datastore)
     //Hilt

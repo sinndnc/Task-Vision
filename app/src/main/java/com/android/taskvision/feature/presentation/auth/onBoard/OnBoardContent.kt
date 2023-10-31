@@ -30,8 +30,7 @@ fun OnBoardContent(viewModel: OnBoardViewModel, navController: NavController) {
         Box(
             modifier = Modifier
                 .weight(0.6f)
-                .fillMaxSize()
-                .background(Color.Magenta)
+                .fillMaxSize(),
         ) {
         }
         Column(

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "TaskVision.app-mergeDebugResources-60:/values-night-v8/values-night-v8.xml",
+            "outputFile": "TaskVision.app-mergeDebugResources-64:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\sinan\\AndroidStudioProjects\\TaskVision\\app\\src\\main\\res\\values-night\\themes.xml",
@@ -9,17 +9,34 @@
                         "startLines": "3",
                         "startColumns": "4",
                         "startOffsets": "103",
-                        "endLines": "9",
+                        "endLines": "11",
                         "endColumns": "12",
-                        "endOffsets": "609"
+                        "endOffsets": "770"
                     },
                     "to": {
-                        "startLines": "2",
+                        "startLines": "9",
                         "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "8",
+                        "startOffsets": "732",
+                        "endLines": "17",
                         "endColumns": "12",
-                        "endOffsets": "602"
+                        "endOffsets": "1395"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\sinan\\.gradle\\caches\\transforms-3\\543f11f806831402ae5abb77a869868d\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,18",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "100,170,254,338,434,536,638,1400",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "165,249,333,429,531,633,727,1484"
                     }
                 }
             ]

@@ -13,15 +13,15 @@ val Typography = Typography(
         fontSize = 96.sp,
     ),
     h2 = TextStyle(
-        fontWeight = FontWeight.SemiBold,
+        fontWeight = FontWeight.Bold,
         fontSize = 60.sp,
     ),
     h3 = TextStyle(
-        fontWeight = FontWeight.SemiBold,
+        fontWeight = FontWeight.Bold,
         fontSize = 48.sp,
     ),
     h4 = TextStyle(
-        fontWeight = FontWeight.SemiBold,
+        fontWeight = FontWeight.Bold,
         fontSize = 32.sp,
     ),
     h5 = TextStyle(
@@ -38,7 +38,7 @@ val Typography = Typography(
      */
     subtitle1 = TextStyle(
         fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
+        fontWeight = FontWeight.Bold,
         fontSize = 18.sp
     ),
     /**
@@ -55,7 +55,7 @@ val Typography = Typography(
      */
     body1 = TextStyle(
         fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
+        fontWeight = FontWeight.Medium,
         fontSize = 16.sp
     ),
     /**

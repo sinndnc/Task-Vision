@@ -17,6 +17,7 @@ import com.android.taskvision.feature.component.button.size.ButtonSize
 @Composable
 fun TaskVisionPrimaryButton(
     modifier: Modifier = Modifier,
+    shape : Int = 10,
     contentText: String,
     onClick: () -> Unit,
 ) {
@@ -26,7 +27,7 @@ fun TaskVisionPrimaryButton(
             .height(ButtonSize.DefaultButtonHeight)
             .width(ButtonSize.DefaultButtonWidth),
         colors = primaryButtonColors(),
-        shape = RoundedCornerShape(4.dp),
+        shape = RoundedCornerShape(shape.dp),
         border = BorderStroke(1.dp, Color.Transparent),
     ) {
         Text(text = contentText)

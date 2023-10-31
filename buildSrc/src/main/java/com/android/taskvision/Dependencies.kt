@@ -30,6 +30,7 @@ object Dependencies {
     object Androidx {
         const val activity = "androidx.activity:activity-ktx:1.6.0"
         const val core = "androidx.core:core-ktx:1.9.0"
+        const val appCompat = "androidx.appcompat:appcompat:1.6.1"
     }
 
     object Ktor {
@@ -51,6 +52,7 @@ object Dependencies {
         const val firestore = "com.google.firebase:firebase-firestore-ktx"
         const val bootAware = "com.google.firebase:firebase-messaging-directboot:20.2.0"
         const val messaging = "com.google.firebase:firebase-messaging-ktx"
+        const val googleAuth = "com.google.android.gms:play-services-auth:20.7.0"
     }
 
     object WorkManager {

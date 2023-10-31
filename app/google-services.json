@@ -1,26 +1,44 @@
 {
   "project_info": {
-    "project_number": "275375764395",
-    "project_id": "task-vision",
-    "storage_bucket": "task-vision.appspot.com"
+    "project_number": "860199150563",
+    "project_id": "task-vision-d070d",
+    "storage_bucket": "task-vision-d070d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:275375764395:android:f9a7ff972dfdd93802d8ee",
+        "mobilesdk_app_id": "1:860199150563:android:b8e0e1bd0b2d9d9d39f6d6",
         "android_client_info": {
           "package_name": "com.android.taskvision"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "860199150563-gdlvo489i78obbreio0mgtdfkip6774b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.taskvision",
+            "certificate_hash": "65f6cb27d023039df6f929e696baa67e12391495"
+          }
+        },
+        {
+          "client_id": "860199150563-b1o7biu39u1nca32gktofh6677k71nt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyCd-pmF-QKbGHNpYToe53dZiBR8PMKqQA0"
+          "current_key": "AIzaSyADUfoKSEqcjmAL3QbklHgUQfquarTVBhs"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860199150563-b1o7biu39u1nca32gktofh6677k71nt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

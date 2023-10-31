@@ -6,6 +6,6 @@ import androidx.compose.runtime.Composable
 
 @Composable
 fun primaryButtonColors() = ButtonDefaults.buttonColors(
-    backgroundColor = MaterialTheme.colors.secondary,
+    backgroundColor = MaterialTheme.colors.secondaryVariant,
     contentColor = MaterialTheme.colors.onSecondary,
 )

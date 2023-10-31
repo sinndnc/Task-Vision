@@ -9,6 +9,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.android.taskvision.feature.component.button.colors.defaultButtonColors
@@ -17,6 +18,7 @@ import com.android.taskvision.feature.component.button.size.ButtonSize
 @Composable
 fun TaskVisionDefaultButton(
     modifier: Modifier = Modifier,
+    shapeSize: Int = 10,
     contentText: String,
     onClick: () -> Unit,
 ) {
@@ -26,7 +28,7 @@ fun TaskVisionDefaultButton(
             .height(ButtonSize.DefaultButtonHeight)
             .width(ButtonSize.DefaultButtonWidth),
         colors = defaultButtonColors(),
-        shape = RoundedCornerShape(4.dp),
+        shape = RoundedCornerShape(shapeSize.dp),
         border = BorderStroke(1.dp, Color.LightGray),
     ) {
         Text(text = contentText)
